@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Golden Task</title>
+  </head>
+  <body>
+    <form class="form">
+      <img src="msp.jpeg" alt="msp" class="img" />
+      <div class="head">
+        <h1>
+          <img src="MSP_LOGO_WHITE.png" alt="msp" class="logo" />
+          Registration Form
+        </h1>
+        <p>Welcome to MSP Tech Club ASU</p>
+      </div>
+      <div class="form-inputs">
+        <input type="text" placeholder="First name" id="fn" required />
+        <input type="text" placeholder="Last name" id="ln" required />
+        <input type="email" placeholder="Email" id="email" required />
+        <input type="password" placeholder="Password" id="pass" required />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          id="confirm"
+          required
+        />
+      </div>
+      <br />
+      <div id="radio">
+        <label>Gender</label>
+        <label for="male">Male</label>
+        <input type="radio" value="Male" name="gender" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" value="Female" name="gender" required id="female" />
+        <br />
+        <button id="reg">Register</button>
+        <input type="reset" id="reset" />
+      </div>
+    </form>
+    <div class="clear"></div>
+    <br />
+    <table class="table none">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <script src="login.js"></script>
+  </body>
+</html>

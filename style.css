@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(2, 2, 70);
+}
+
+.head {
+  color: white;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.logo {
+  display: inline;
+  width: 70px;
+  height: 70px;
+  top: 30px;
+  left: 15px;
+  position: relative;
+}
+
+p {
+  left: 90px;
+  position: relative;
+}
+
+.img {
+  float: right;
+  width: 40%;
+  height: 100%;
+  border-radius: 0 30px 30px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+form {
+  margin-left: 120px;
+  margin-top: 50px;
+  width: 80%;
+  height: 600px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(26, 26, 89);
+  display: block;
+}
+
+#fn,
+#ln,
+#pass,
+#confirm,
+#email {
+  padding: 7px;
+  background-color: rgb(29, 29, 100);
+  border: none;
+  width: 310px;
+  height: 40px;
+  border-radius: 3px;
+  margin: 15px;
+  color: white;
+}
+
+#email {
+  width: 670px;
+}
+
+label {
+  margin: 30px;
+}
+
+::placeholder {
+  color: rgb(183, 181, 179);
+}
+
+#reg,
+#reset {
+  background-color: rgb(103, 182, 238);
+  width: 670px;
+  height: 60px;
+  padding: 10px;
+  margin: 7px;
+  font-weight: 700;
+  font-size: medium;
+  border-radius: 3px;
+  top: 15px;
+  position: relative;
+  display: block;
+}
+
+#radio {
+  margin: 10px;
+  position: relative;
+}
+
+table {
+  margin-left: 120px;
+  margin-top: 50px;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(103, 182, 238);
+  font-size: larger;
+}
+
+td,
+th {
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(3, 3, 84);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(29, 29, 100);
+}
+
+.right {
+  border-right: 1px solid rgb(103, 182, 238);
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 15px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.none {
+  display: none;
+}
